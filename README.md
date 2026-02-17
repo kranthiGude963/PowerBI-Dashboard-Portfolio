@@ -2,11 +2,14 @@
 Operational Query Performance Analytics Dashboard designed to identify execution bottlenecks, optimize warehouse sizing, and improve system efficiency using Power BI and DAX.
 
 
-Objective
+Project 2: Query Performance Analysis Dashboard
+**Project Objective
+**
+This dashboard was built to analyze database query performance and identify execution bottlenecks across warehouses, users, and schemas.
 
-This dashboard analyzes database query execution performance to identify bottlenecks and improve warehouse efficiency.
+The goal is to monitor operational efficiency and improve system performance.
 
-📊 Key Metrics
+**Key KPIs**
 
 Average Total Time
 
@@ -16,7 +19,36 @@ Average Queueing Time
 
 Bytes Spilled to Remote
 
-Dashboard Preview
-![Query Dashboard 1](Screenshot 2026-02-14 192452.png)
-![Query Dashboard 2](Screenshot 2026-02-14 192415.png)
-![Query Dashboard 3](Screenshot 2026-02-14 192352.png)
+**Analysis Performed**
+
+Warehouse workload distribution
+
+Query-type breakdown
+
+Human vs Scheduler workload comparison
+
+Schema-level activity analysis
+
+Monthly performance trend analysis
+
+** Key Insights**
+
+Significant queueing spikes indicate potential warehouse sizing issues
+
+High resource usage concentrated in specific warehouse sizes
+
+Certain query types contribute disproportionately to execution load
+
+**Tools Used**
+
+Power BI
+
+DAX
+
+Data modelling
+
+**Dashboard Preview**
+
+Add this line:
+
+![Query Performance Dashboard](images/query_performance_preview.png)
